@@ -1,0 +1,16 @@
+
+Benchmarks complete for trained.pt on e:\Abhi\Documents\IITMadras\IBOT\Github_repo\Mine_detection_model\yolo\filtered_data_aug\data.yaml at imgsz=640 (457.74s)
+                   Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)    FPS
+0                 PyTorch       ✅       18.3               0.3912                   16.68  59.93
+1             TorchScript       ✅       36.5               0.3952                   14.65  68.24
+2                    ONNX       ✅       36.2               0.3952                   21.30  46.94
+3                OpenVINO       ❌        0.0                  NaN                     NaN    NaN
+4                TensorRT       ❌        0.0                  NaN                     NaN    NaN
+5                  CoreML       ❌        0.0                  NaN                     NaN    NaN
+6   TensorFlow SavedModel       ❌        0.0                  NaN                     NaN    NaN
+7     TensorFlow GraphDef       ❌        0.0                  NaN                     NaN    NaN
+8         TensorFlow Lite       ❌        0.0                  NaN                     NaN    NaN
+9     TensorFlow Edge TPU       ❌        0.0                  NaN                     NaN    NaN
+10          TensorFlow.js       ❌        0.0                  NaN                     NaN    NaN
+11           PaddlePaddle       ❌        0.0                  NaN                     NaN    NaN
+12                   NCNN       ✅       36.1               0.3952                  119.14   8.39
